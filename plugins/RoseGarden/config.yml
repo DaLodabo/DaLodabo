@@ -1,0 +1,4 @@
+# Should all plugins running RoseGarden check for updates?
+# RoseGarden is a core library created by Rosewood Development
+# Plugin update messages will be sent to players with the 'rosegarden.updates' permission
+check-updates: true

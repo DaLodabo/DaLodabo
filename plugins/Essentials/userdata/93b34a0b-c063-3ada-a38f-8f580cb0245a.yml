@@ -1,0 +1,43 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772222635505
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772263164767
+  login: 1772261669877
+  kits:
+    dtools: 1772185572783
+    notch: 1771422506024
+    firework: 1771422516859
+    tools: 0
+money: '0'
+last-account-name: DaLodabo
+logoutlocation:
+  world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+  world-name: world
+  x: 90.78599969008468
+  y: 81.0625
+  z: 0.34171707350082187
+  yaw: 104.4037094116211
+  pitch: 29.500732421875
+lastlocation:
+  world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+  world-name: world
+  x: -39.04917697386082
+  y: 81.7491694320286
+  z: 43.55674740203374
+  yaw: -147.5963592529297
+  pitch: 18.850656509399414

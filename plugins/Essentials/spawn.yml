@@ -1,0 +1,57 @@
+spawns:
+  default:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 91.4639251294071
+    y: 81.0625
+    z: 0.463136532379804
+    yaw: 89.85066986083984
+    pitch: 6.549930572509766
+  donater:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375
+  premium:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375
+  chapter:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375
+  king:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375
+  d.helper:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375
+  creator:
+    world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+    world-name: world
+    x: 100.04466634491456
+    y: 81.0
+    z: 0.35232460926806797
+    yaw: 89.7000732421875
+    pitch: 3.8499755859375

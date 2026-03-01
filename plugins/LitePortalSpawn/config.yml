@@ -1,0 +1,10 @@
+# LitePortalSpawn 1.0 configuration
+
+world: world_the_end # В какой мир происходит телепортация.
+
+coordinates:
+  x: 97.39
+  y: 62.0
+  z: 0.42
+  yaw: 90.0
+  pitch: 0.0

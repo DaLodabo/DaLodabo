@@ -1,0 +1,794 @@
+Kits:
+  start:
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&lstart &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 999999999
+    permission: playerkits.kit.start
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lstart &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        color: 10511680
+        id: LEATHER_HELMET
+        amount: '1'
+        durability: '0'
+        preview_slot: 0
+      '2':
+        color: 10511680
+        id: LEATHER_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        preview_slot: 1
+      '3':
+        color: 10511680
+        id: LEATHER_LEGGINGS
+        amount: '1'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        color: 10511680
+        id: LEATHER_BOOTS
+        amount: '1'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: COOKED_PORKCHOP
+        amount: '16'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        preview_slot: 9
+      '7':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 10
+      '8':
+        id: STONE_AXE
+        amount: '1'
+        durability: '0'
+        preview_slot: 11
+      '9':
+        id: STONE_SHOVEL
+        amount: '1'
+        durability: '0'
+        preview_slot: 12
+      '10':
+        id: BOW
+        amount: '1'
+        durability: '0'
+        preview_slot: 13
+      '11':
+        id: ARROW
+        amount: '16'
+        durability: '0'
+        preview_slot: 14
+  donater:
+    slot: 2
+    display_item: IRON_SWORD
+    display_name: '&6&ldonater &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 43200
+    permission: playerkits.kit.donater
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&ldonater &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;1
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: COOKED_PORKCHOP
+        amount: '32'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DAMAGE_ALL;1
+        unbreakable: 'false'
+        preview_slot: 9
+      '7':
+        id: IRON_PICKAXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;1
+        unbreakable: 'false'
+        preview_slot: 10
+      '8':
+        id: IRON_AXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;1
+        unbreakable: 'false'
+        preview_slot: 11
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: IRON_SHOVEL
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;1
+        unbreakable: 'false'
+        preview_slot: 12
+      '10':
+        nbt:
+        - RepairCost;1;int
+        id: BOW
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_FIRE;1
+        unbreakable: 'false'
+        preview_slot: 13
+      '11':
+        id: ARROW
+        amount: '32'
+        durability: '0'
+        preview_slot: 14
+  premium:
+    slot: 3
+    display_item: IRON_SWORD
+    display_name: '&6&lpremium &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 43200
+    permission: playerkits.kit.premium
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lpremium &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '2'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: COOKED_PORKCHOP
+        amount: '32'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DAMAGE_ALL;2
+        unbreakable: 'false'
+        preview_slot: 9
+      '8':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;2
+        unbreakable: 'false'
+        preview_slot: 10
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;2
+        unbreakable: 'false'
+        preview_slot: 11
+      '10':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;2
+        unbreakable: 'false'
+        preview_slot: 12
+      '11':
+        nbt:
+        - RepairCost;1;int
+        id: BOW
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_FIRE;1
+        unbreakable: 'false'
+        preview_slot: 13
+      '12':
+        id: ARROW
+        amount: '32'
+        durability: '0'
+        preview_slot: 14
+  chapter:
+    slot: 4
+    display_item: IRON_SWORD
+    display_name: '&6&lchapter &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 43200
+    permission: playerkits.kit.chapter
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lchapter &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '5'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: COOKED_PORKCHOP
+        amount: '32'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DAMAGE_ALL;3
+        unbreakable: 'false'
+        preview_slot: 9
+      '8':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;3
+        unbreakable: 'false'
+        preview_slot: 10
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;3
+        unbreakable: 'false'
+        preview_slot: 11
+      '10':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;3
+        unbreakable: 'false'
+        preview_slot: 12
+      '11':
+        nbt:
+        - RepairCost;1;int
+        id: BOW
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_FIRE;1
+        unbreakable: 'false'
+        preview_slot: 13
+      '12':
+        id: ARROW
+        amount: '32'
+        durability: '0'
+        preview_slot: 14
+  king:
+    slot: 5
+    display_item: IRON_SWORD
+    display_name: '&6&lking &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 43200
+    permission: playerkits.kit.king
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lking &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '10'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '2'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: COOKED_PORKCHOP
+        amount: '64'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DAMAGE_ALL;4
+        unbreakable: 'false'
+        preview_slot: 9
+      '9':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;4
+        unbreakable: 'false'
+        preview_slot: 10
+      '10':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;4
+        unbreakable: 'false'
+        preview_slot: 11
+      '11':
+        nbt:
+        - RepairCost;1;int
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;4
+        unbreakable: 'false'
+        preview_slot: 12
+      '12':
+        nbt:
+        - RepairCost;1;int
+        id: BOW
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_FIRE;1
+        unbreakable: 'false'
+        preview_slot: 13
+      '13':
+        id: ARROW
+        amount: '32'
+        durability: '0'
+        preview_slot: 14
+  d:
+    helper:
+      Items:
+        '1':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_SHOVEL
+          amount: '1'
+          durability: '0'
+          enchants:
+          - DIG_SPEED;5
+          unbreakable: 'false'
+        '2':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_PICKAXE
+          amount: '1'
+          durability: '0'
+          enchants:
+          - DIG_SPEED;5
+          unbreakable: 'false'
+        '3':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_SWORD
+          amount: '1'
+          durability: '0'
+          enchants:
+          - DAMAGE_ALL;5
+          unbreakable: 'false'
+        '4':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_AXE
+          amount: '1'
+          durability: '0'
+          enchants:
+          - DIG_SPEED;5
+          unbreakable: 'false'
+        '5':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_HELMET
+          amount: '1'
+          durability: '0'
+          enchants:
+          - PROTECTION_ENVIRONMENTAL;4
+          unbreakable: 'false'
+        '6':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_CHESTPLATE
+          amount: '1'
+          durability: '0'
+          enchants:
+          - PROTECTION_ENVIRONMENTAL;4
+          unbreakable: 'false'
+        '7':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_LEGGINGS
+          amount: '1'
+          durability: '0'
+          enchants:
+          - PROTECTION_ENVIRONMENTAL;4
+          unbreakable: 'false'
+        '8':
+          nbt:
+          - RepairCost;3;int
+          id: DIAMOND_BOOTS
+          amount: '1'
+          durability: '0'
+          enchants:
+          - PROTECTION_ENVIRONMENTAL;4
+          unbreakable: 'false'
+        '9':
+          id: ARROW
+          amount: '64'
+          durability: '0'
+        '10':
+          id: COOKED_PORKCHOP
+          amount: '64'
+          durability: '0'
+        '11':
+          id: GOLDEN_APPLE
+          amount: '15'
+          durability: '0'
+        '12':
+          id: ENCHANTED_GOLDEN_APPLE
+          amount: '5'
+          durability: '0'
+        '13':
+          nbt:
+          - RepairCost;1;int
+          id: BOW
+          amount: '1'
+          durability: '0'
+          enchants:
+          - ARROW_FIRE;1
+          unbreakable: 'false'
+      slot: 6
+      display_item: IRON_SWORD
+      display_name: '&6&ld.helper &aKit'
+      display_lore:
+      - '&7This is a description of the kit.'
+      - '&7You can add multiples &alines&7.'
+      cooldown: 3600
+      permission: playerkits.kit.d.helper
+      noPermissionsItem:
+        display_item: BARRIER
+        display_name: '&6&ld.helper &aKit'
+        display_lore:
+        - '&cYou don''t have permissions to claim'
+        - '&cthis kit.'
+  helper:
+    slot: 6
+    display_item: IRON_SWORD
+    display_name: '&6&lhelper &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 43200
+    permission: playerkits.kit.helper
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lhelper &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    Items:
+      '1':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '15'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '5'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: COOKED_PORKCHOP
+        amount: '64'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DAMAGE_ALL;5
+        unbreakable: 'false'
+        preview_slot: 9
+      '9':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;5
+        unbreakable: 'false'
+        preview_slot: 10
+      '10':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_AXE
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;5
+        unbreakable: 'false'
+        preview_slot: 11
+      '11':
+        nbt:
+        - RepairCost;3;int
+        id: DIAMOND_SHOVEL
+        amount: '1'
+        durability: '0'
+        enchants:
+        - DIG_SPEED;5
+        unbreakable: 'false'
+        preview_slot: 12
+      '12':
+        nbt:
+        - RepairCost;1;int
+        id: BOW
+        amount: '1'
+        durability: '0'
+        enchants:
+        - ARROW_FIRE;1
+        unbreakable: 'false'
+        preview_slot: 13
+      '13':
+        id: ARROW
+        amount: '64'
+        durability: '0'
+        preview_slot: 14

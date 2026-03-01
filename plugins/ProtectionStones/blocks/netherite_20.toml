@@ -1,0 +1,75 @@
+type = "NETHERITE_BLOCK"
+alias = "netherite20"
+description = "25x25 private"
+restrict_obtaining = true
+world_list_type = "blacklist"
+worlds = []
+prevent_block_place_in_restricted_world = true
+allow_placing_in_wild = true
+placing_bypasses_wg_passthrough = true
+
+[region]
+    distance_between_claims = -1
+    x_radius = 12
+    y_radius = -1
+    z_radius = 12
+    chunk_radius = -1
+    home_x_offset = 0.0
+    home_y_offset = 1.0
+    home_z_offset = 0.0
+    flags = ["pvp deny", "creeper-explosion deny", "wither-damage deny", "ghast-fireball deny"]
+    allowed_flags = ["-g all pvp", "greeting", "greeting-title", "greeting-action", "farewell", "farewell-title", "farewell-action", "mob-spawning", "creeper-explosion", "wither-damage", "ghast-fireball"]
+    hidden_flags_from_info = ["ps-name", "ps-merged-regions", "ps-merged-regions-types", "ps-block-material", "ps-price"]
+    priority = 0
+    allow_overlap_unowned_regions = false
+    allow_other_regions_to_overlap = "owner"
+    allow_merging = true
+    allowed_merging_into_types = ["all"]
+
+[block_data]
+    display_name = "&8Незеритовый приват &7(25x25)"
+    lore = ["&7Крафт: центр алмазный блок, вокруг незеритовые слитки."]
+    enchanted_effect = true
+    price = 0.0
+    allow_craft_with_custom_recipe = true
+    custom_recipe = [
+        ["NETHERITE_INGOT", "NETHERITE_INGOT", "NETHERITE_INGOT"],
+        ["NETHERITE_INGOT", "DIAMOND_BLOCK", "NETHERITE_INGOT"],
+        ["NETHERITE_INGOT", "NETHERITE_INGOT", "NETHERITE_INGOT"]
+    ]
+    recipe_amount = 1
+    custom_model_data = -1
+
+[economy]
+    tax_amount = 0.0
+    tax_period = -1
+    tax_payment_time = 86400
+    start_with_tax_autopay = true
+    tenant_rent_role = "member"
+    landlord_still_owner = false
+
+[behaviour]
+    auto_hide = false
+    auto_merge = false
+    no_drop = false
+    prevent_piston_push = true
+    prevent_explode = false
+    destroy_region_when_explode = true
+    prevent_silk_touch = false
+    cost_to_place = 0.0
+    allow_smelt_item = false
+    allow_use_in_crafting = false
+
+[player]
+    allow_shift_right_break = true
+    prevent_teleport_in = false
+    no_moving_when_tp_waiting = true
+    tp_waiting_seconds = 0
+    prevent_ps_get = false
+    prevent_ps_home = false
+    permission = ''
+
+[event]
+    enable = false
+    on_region_create = []
+    on_region_destroy = []

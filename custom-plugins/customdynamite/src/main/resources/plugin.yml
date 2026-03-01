@@ -1,0 +1,24 @@
+name: CustomDynamite
+version: 1.0.0
+main: ru.dalodabo.customdynamite.CustomDynamitePlugin
+api-version: '1.19'
+author: Codex
+commands:
+  cdyn:
+    description: CustomDynamite admin command
+    usage: /cdyn give <player> <c|b|a|taerblack|stiler|blastwave> [amount] | /cdyn givejake <player>
+permissions:
+  customdynamite.use.c:
+    default: true
+  customdynamite.use.b:
+    default: true
+  customdynamite.use.a:
+    default: true
+  customdynamite.use.taerblack:
+    default: op
+  customdynamite.use.stiler:
+    default: op
+  customdynamite.use.blastwave:
+    default: op
+  customdynamite.admin:
+    default: op

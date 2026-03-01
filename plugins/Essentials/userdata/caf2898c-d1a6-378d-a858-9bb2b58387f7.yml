@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772214843508
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772222842367
+  login: 1772222732467
+money: '0'
+last-account-name: zuWarAnoVaxoza
+logoutlocation:
+  world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+  world-name: world
+  x: 87.43892640935849
+  y: 80.0
+  z: -2.699999988079071
+  yaw: -35.24995803833008
+  pitch: 18.149991989135742
+lastlocation:
+  world: 1b4ec6d1-f711-43d5-a3c9-f78f06c29b1a
+  world-name: world
+  x: 84.48333852048786
+  y: 80.0625
+  z: 0.984158332381085
+  yaw: -102.29986572265625
+  pitch: 12.150008201599121

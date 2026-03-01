@@ -1,0 +1,41 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Minecraft server runtime data
+logs/
+crash-reports/
+cache/
+world/
+world_nether/
+world_the_end/
+
+# Server binaries and downloaded libraries
+server.jar
+versions/
+libraries/
+
+# Temp and generated files
+*.log
+*.tmp
+*.bak
+
+# Plugin binaries (keep plugin configs, ignore jars)
+plugins/*.jar
+!plugins/README.TXT
+
+# Optional: keep disabled plugin jars out of git too
+plugins/_disabled_temp/
+plugins/_disabled_placeholderapi_expansions/
+
+# Custom plugin build outputs (keep source, ignore artifacts)
+custom-plugins/**/build/
+
+# Common local db files
+*.db
+*.sqlite
+*.sqlite3

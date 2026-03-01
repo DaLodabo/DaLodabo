@@ -1,0 +1,5 @@
+name: PotionQOL
+version: 1.0.0
+main: ru.dalodabo.potionqol.PotionQOLPlugin
+api-version: '1.19'
+author: Codex
