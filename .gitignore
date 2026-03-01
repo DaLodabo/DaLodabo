@@ -15,7 +15,6 @@ world_nether/
 world_the_end/
 
 # Server binaries and downloaded libraries
-server.jar
 versions/
 libraries/
 
@@ -25,7 +24,6 @@ libraries/
 *.bak
 
 # Plugin binaries (keep plugin configs, ignore jars)
-plugins/*.jar
 !plugins/README.TXT
 
 # Optional: keep disabled plugin jars out of git too
